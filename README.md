@@ -14,7 +14,7 @@
 </div>
 
 ###
-
+<h3 align="center">Visitor Count :)</h3>
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=AnshDani2004.AnshDani2004&"  />
 </div>
@@ -169,7 +169,7 @@
 
 <div align="center">
   <a href="https://open.spotify.com/user/2ts0r58x16e3vuu3s06nxuuzb">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=2ts0r58x16e3vuu3s06nxuuzb&count=3&unique=false" alt="Spotify recently played"  />
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=2ts0r58x16e3vuu3s06nxuuzb&count=5&unique=true" alt="Spotify recently played"  />
   </a>
 </div>
 
