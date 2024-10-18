@@ -163,7 +163,7 @@
 
 ###
 
-<h3 align="center">🎧 Spotify Recents</h3>
+<h3 align="center">🎧  Spotify Recents</h3>
 
 ###
 
