@@ -16,7 +16,9 @@
 ###
 <h3 align="center">Visitor Count :)</h3>
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=AnshDani2004.AnshDani2004&"  />
+  <a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=AnshDani2004&label=Profile%20Views&color=12&icon=5&pretty=false" />
+</a>
 </div>
 
 ###
