@@ -1,63 +1,44 @@
-<div align="center">
-
 # Ansh Hemang Dani
 
-**Market Microstructure · Volatility Modeling · Quantitative Research**
-
-[![Portfolio](https://img.shields.io/badge/anshdani.com-0d1117?style=for-the-badge&logo=safari&logoColor=white)](https://anshdani.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/ansh-dani/)
-
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
+**Quantitative Research · Market Microstructure · Statistical Modeling · C++ Systems**
 
 ### About
 
-Incoming MS Financial Mathematics student at the University of Chicago.  
-CS + Mathematics at Barrett, The Honors College, ASU.
+Incoming M.S. in Financial Mathematics student at the University of Chicago.  
+B.S. Computer Science + B.S. Mathematics, Barrett Honors College at Arizona State University · GPA 4.00.
 
-I build market microstructure systems, volatility research tools, and Bayesian regime models, with an emphasis on reproducible claims and honest failure analysis.
-
-Recently shipped two flagship projects:
-
-- a C++ limit order book and market-making simulator with Nasdaq ITCH replay, paired same-seed statistics, and queue-position diagnostics;
-- a Python Vol Surface Research Lab for SPY option-chain cleaning, SABR/Heston calibration, robustness testing, and model failure diagnostics.
-
-</td>
-<td width="50%" valign="top">
+I build quantitative research and trading systems across market microstructure, time-series modeling, Bayesian inference, derivatives, machine learning, and C++. My work emphasizes reproducible experiments, careful out-of-sample validation, and understanding why models succeed or fail.
 
 ### Featured Work
 
-⚙️ **[C++ Limit Order Book And Market Making Simulator](https://github.com/AnshDani2004/cpp-limit-order-book-market-maker)**  
-Price-time priority · QQQ ITCH replay · paired 30-seed statistics · queue diagnostics
+📊 **[BTC/USD Cross-Venue Price Discovery](https://github.com/AnshDani2004/cross-venue-price-discovery)**  
+Market microstructure · synchronized market data · Granger causality · HAC regressions · VAR/VECM · price discovery
+
+⚙️ **[C++ Limit Order Book & Market-Making Simulator](https://github.com/AnshDani2004/cpp-limit-order-book-market-maker)**  
+Price-time priority · Nasdaq ITCH replay · Avellaneda-Stoikov · queue diagnostics · performance engineering
+
+🧪 **[BayesAudit](https://github.com/AnshDani2004/BayesAudit)**  
+Hierarchical LLM oversight · matched experiments · Bayesian/logistic monitoring · held-out evaluation
 
 📈 **[Vol Surface Research Lab](https://github.com/AnshDani2004/vol-surface-research-lab)**  
-SPY IV surfaces · SABR/Heston calibration · robustness testing · failure diagnostics
-
-🏆 **[IMC Prosperity 4](https://anshdani.com/projects/imc-prosperity-4)**  
-#194 algorithmic / #256 overall · top 1.4% of 18,800+ teams
+SPY volatility surfaces · SABR/Heston calibration · robustness testing · model diagnostics
 
 📉 **[Bayesian Sequential Decision-Making Thesis](https://github.com/AnshDani2004/BSD_Thesis)**  
-HMM filtering · CUSUM regime detection · adaptive risk control
+HMM filtering · CUSUM regime detection · Bayesian adaptation · adaptive risk control
 
-</td>
-</tr>
-</table>
+🔬 **[Bayesian Market Filters](https://github.com/AnshDani2004/bayesian-market-filters)**  
+Kalman/HMM/particle filtering · regime estimation · machine learning · walk-forward evaluation
 
 ### Selected Results
 
-- Built a deterministic C++ limit order book with price-time priority, partial fills, cancel/replace logic, self-trade prevention, CSV replay, and direct `external_execute` support.
-- Processed `1,000,000` synthetic order events at about `3.7M` events/sec on Apple M3.
-- Replayed `12,423` bounded QQQ Nasdaq ITCH messages through the matching engine.
-- Added naive versus Avellaneda-Stoikov market-making simulations with risk controls, terminal liquidation, paired 30-seed statistics, and queue-position diagnostics.
-- Built a reproducible Python volatility-surface research engine for SPY option-chain cleaning, forward extraction, OTM IV surface construction, static-arbitrage diagnostics, SABR/Heston calibration, and model failure analysis.
-- Reduced SABR median RMSE from `0.0190` to `0.0077` after deterministic expiry/liquidity filtering; showed global/per-expiry Heston underfit SABR despite synthetic Heston recovery and implementation sanity checks.
-- Placed #194 algorithmic / #256 overall in IMC Prosperity 4 out of 18,800+ teams.
+- Found stronger Coinbase-to-Kraken short-horizon predictability across 9 usable BTC/USD sessions using Granger causality, HAC regressions, and VAR-based price-discovery analysis.
+- Built a deterministic C++ matching engine and benchmarked 1M synthetic order events at ~3.7M events/sec on Apple M3.
+- Used multi-seed market-making experiments to trace ITCH-calibrated fill-rate degradation primarily to sparse executions rather than queue burial.
+- Reduced SABR median calibration RMSE from `0.0190` to `0.0077` after deterministic expiry and liquidity filtering, while documenting persistent Heston underfit.
+- In BayesAudit, found that the confirmatory attacker effect did not replicate in held-out testing and diagnosed a failure mode in the Bayesian/logistic monitor.
+- Reduced regime-detection lag from 15–20 steps to ~2 using a volatility-augmented HMM with a CUSUM trigger in my honors thesis.
+- Placed **#194 Algorithmic / #256 Overall** of 18,800+ teams in IMC Prosperity 4, finishing in the **Top 1.4% overall**.
 
-<div align="center">
+### Tools
 
-`C++` · `Python` · `NumPy` · `SciPy` · `pandas` · `PyTorch` · `SQL` · `R` · `CMake` · `pytest` · `ruff` · `Docker`
-
-</div>
+`Python` · `C++` · `SQL` · `R` · `NumPy` · `pandas` · `Polars` · `SciPy` · `PyTorch` · `scikit-learn` · `XGBoost` · `CMake` · `Docker`
