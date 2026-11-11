@@ -1,109 +1,65 @@
-<h1 align="center">Ansh Hemang Dani</h1>
+<h1 align="center">Ansh Dani</h1>
 
 <p align="center">
-  <b>Quantitative Research · Market Microstructure · Statistical Modeling · C++ Systems</b>
-</p>
-
-<p align="center">
-  Incoming M.S. Financial Mathematics @ University of Chicago<br>
-  B.S. Computer Science + B.S. Mathematics @ Arizona State University · GPA 4.00
+  Market microstructure · market making · C++ trading systems · volatility
 </p>
 
 <p align="center">
-  <a href="https://anshdani.com">
-    <img src="https://img.shields.io/badge/Portfolio-anshdani.com-2f81f7?style=flat-square">
-  </a>
-  <a href="https://www.linkedin.com/in/ansh-dani">
-    <img src="https://img.shields.io/badge/LinkedIn-Ansh_Dani-0A66C2?style=flat-square&logo=linkedin">
-  </a>
-  <a href="mailto:adani2@uchicago.edu">
-    <img src="https://img.shields.io/badge/Email-UChicago-800000?style=flat-square">
-  </a>
+  M.S. Financial Mathematics, University of Chicago (Dec 2027)<br>
+  B.S. Computer Science + B.S. Mathematics, Arizona State University (GPA 4.00, Summa Cum Laude)
 </p>
-
----
-
-### About
-
-I build quantitative research and trading systems across **market microstructure, time-series modeling, Bayesian inference, derivatives, machine learning, and C++**.
-
-My work emphasizes **reproducible experiments, out-of-sample validation, careful statistical inference, and understanding why models succeed or fail**.
-
----
-
-### Featured Work
-
-📊 **[BTC/USD Cross-Venue Price Discovery](https://github.com/AnshDani2004/cross-venue-price-discovery)**  
-*Market microstructure · synchronized market data · Granger causality · HAC regressions · VAR/VECM*
-
-> Empirical study of price discovery between Coinbase and Kraken across 10 paired sessions, finding stronger Coinbase-to-Kraken short-horizon predictability across 9 usable sessions.
-
-<br>
-
-⚙️ **[C++ Limit Order Book & Market-Making Simulator](https://github.com/AnshDani2004/cpp-limit-order-book-market-maker)**  
-*Price-time priority · Nasdaq ITCH replay · Avellaneda-Stoikov · queue diagnostics · performance engineering*
-
-> Deterministic C++ matching engine benchmarked at ~3.7M events/sec, with multi-seed experiments investigating fill behavior under ITCH-calibrated market flow.
-
-<br>
-
-🧪 **[BayesAudit](https://github.com/AnshDani2004/BayesAudit)**  
-*Hierarchical LLM oversight · matched experiments · Bayesian monitoring · held-out evaluation*
-
-> Reproducible empirical study of budget-constrained oversight, including confirmatory and held-out experiments and analysis of a Bayesian-monitor failure mode.
-
-<br>
-
-📈 **[Vol Surface Research Lab](https://github.com/AnshDani2004/vol-surface-research-lab)**  
-*SPY volatility surfaces · SABR/Heston calibration · robustness testing · model diagnostics*
-
-> Calibration research pipeline for option-chain cleaning, implied-volatility surfaces, static-arbitrage diagnostics, and comparative SABR/Heston model evaluation.
-
----
-
-### Additional Research
-
-📉 **[Bayesian Sequential Decision-Making Thesis](https://github.com/AnshDani2004/BSD_Thesis)**  
-HMM filtering · CUSUM regime detection · Bayesian adaptation · adaptive risk control
-
-🔬 **[Bayesian Market Filters](https://github.com/AnshDani2004/bayesian-market-filters)**  
-Kalman/HMM/particle filtering · regime estimation · machine learning · walk-forward evaluation
-
----
-
-### Selected Results
-
-- **Cross-Venue Price Discovery:** Found stronger Coinbase-to-Kraken short-horizon predictability across 9 usable BTC/USD sessions using Granger causality, HAC regressions, and VAR-based analysis.
-- **C++ Market Microstructure:** Benchmarked 1M synthetic order events at approximately **3.7M events/sec** on Apple M3.
-- **Market-Making Experiments:** Traced ITCH-calibrated fill-rate degradation primarily to **sparse executions rather than queue burial**.
-- **Volatility Modeling:** Reduced SABR median calibration RMSE from `0.0190` to `0.0077` after deterministic expiry and liquidity filtering while documenting persistent Heston underfit.
-- **BayesAudit:** Found that the confirmatory attacker effect did **not replicate in held-out testing** and diagnosed a failure mode in the Bayesian/logistic monitor.
-- **Bayesian Thesis:** Reduced regime-detection lag from `15–20` steps to approximately `2` using a volatility-augmented HMM with a CUSUM trigger.
-- **IMC Prosperity 4:** Placed **#194 Algorithmic / #256 Overall** of 18,800+ teams, finishing in the **Top 1.4% overall**.
-
----
-
-### Tech
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white">
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square">
-  <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white">
-</p>
-
----
 
 <p align="center">
-  <a href="https://anshdani.com"><b>Research Portfolio</b></a>
-  ·
-  <a href="https://github.com/AnshDani2004?tab=repositories"><b>Repositories</b></a>
-  ·
-  <a href="https://www.linkedin.com/in/ansh-dani"><b>LinkedIn</b></a>
+  <a href="https://anshdani.com">anshdani.com</a> ·
+  <a href="https://www.linkedin.com/in/ansh-dani">LinkedIn</a> ·
+  <a href="mailto:adani2@uchicago.edu">adani2@uchicago.edu</a>
 </p>
+
+---
+
+I work on how orders, queues and liquidity behave in futures markets, and on what that means for
+someone quoting in them. Most of my work starts from order-by-order (CME MBO) data and pre-registered
+tests, and I report null results alongside the positive ones.
+
+Currently: quantitative research in the **WH Trading × UChicago Project Lab** (delta hedging and
+volatility forecasting on futures options), and a pre-registered study of order-book liquidity
+around the weekly EIA energy releases.
+
+### Projects
+
+**[mbo-queue](https://github.com/AnshDani2004/mbo-queue)** · C++20, pybind11, Python · `pip install mbo-queue`
+Rebuilds exact FIFO queues from CME market-by-order data and scores the queue-position models that
+open-source market-making backtesters use (hftbacktest's risk-averse, power and log models;
+Rigtorp) against the true queue: queue error, fill-rate bias, fill time and P&L bias. The C++ engine
+and an independent Python reference agree bitwise; validated on a synthetic exchange with known
+answers.
+
+**[C++ Limit Order Book & Market-Making Simulator](https://github.com/AnshDani2004/cpp-limit-order-book-market-maker)** · C++20
+Deterministic price-time matching engine (partial fills, cancel/replace, self-trade prevention,
+flat-array book) at ~3.7M events/s, 125 ns p50 / 1.2 µs p99 over 1M events. Over 1,080 paired-seed
+runs, Avellaneda-Stoikov quoting cut inventory variance in high volatility; under ITCH-calibrated
+QQQ flow, fill rates fell below 2% because executions were sparse, and the risk-adjusted gain
+disappeared.
+
+**[BTC/USD Cross-Venue Price Discovery](https://github.com/AnshDani2004/cross-venue-price-discovery)** · Python
+Which venue moves first, Coinbase or Kraken, on synchronized data: Granger causality, HAC
+regressions and VAR/VECM over 10 paired sessions (9 usable), with stronger Coinbase-to-Kraken
+predictability at short horizons.
+
+**[SPY Volatility Surface Lab](https://github.com/AnshDani2004/vol-surface-research-lab)** · Python
+Option-chain cleaning, IV inversion, Greeks, static-arbitrage checks and SABR/Heston calibration.
+On one saved chain, SABR fit 206 liquid OTM quotes to 0.77 vol points RMSE and beat Heston on all
+three expiries.
+
+**[Honors Thesis: Bayesian Sequential Decision-Making](https://github.com/AnshDani2004/BSD_Thesis)** · Python, LaTeX
+HMM regime detection with a CUSUM trigger feeding Kelly sizing under a drawdown floor, evaluated by
+Monte Carlo on detection delay, ruin and wealth.
+
+### Competitions
+
+- **IMC Prosperity 4:** 256th of 18,803 teams worldwide (top 1.4%)
+- **Optiver × UChicago Explaining Markets:** 1st globally (final results pending)
+
+### Tools
+
+Python (NumPy, pandas, Polars, SciPy, statsmodels, PyTorch) · C++20, pybind11, CMake · SQL · R · Git, Linux, Docker
