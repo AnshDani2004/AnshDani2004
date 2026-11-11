@@ -57,7 +57,7 @@ Monte Carlo on detection delay, ruin and wealth.
 
 ### Competitions
 
-- **IMC Prosperity 4:** 256th of 18,800+ teams worldwide (top 1.4%, #194th algo)
+- **IMC Prosperity 4:** 256th of 18,800+ teams worldwide (top 1.4%, 194th algo)
 - **Optiver × UChicago Explaining Markets:** 2nd globally 
 
 ### Tools
